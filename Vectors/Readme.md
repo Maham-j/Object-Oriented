@@ -23,4 +23,16 @@ A Python toolkit for vector operations.
 ## 5. Task 5: Vector Equality Test 🔄
    - Function: `vectors_are_equal(vector1, vector2, tolerance=1e-10)`
    - Checks if two vectors are equal within a specified tolerance. Useful for handling floating-point variations.
+     
+## Connect with Me 🌐 
+
+Discover more exciting coding projects on my [GitHub repository](https://github.com/Maham-j)
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/maham-jamil-268584267)
+
+Connect with me on HackerRank: [HackerRank ](https://www.hackerrank.com/maham_jamil)
+
+---
+
+Happy coding! 🚀
 
