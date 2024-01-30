@@ -31,8 +31,14 @@ Contributions are welcome! If you have any suggestions, improvements, or find an
 
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
-## Acknowledgments 🙌
+## Connect with Me 🌐 
 
-A big thank you to all contributors and the open-source community for making this project possible.
+Discover more exciting coding projects on my [GitHub repository](https://github.com/Maham-j)
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/maham-jamil-268584267)
+
+Connect with me on HackerRank: [HackerRank ](https://www.hackerrank.com/maham_jamil)
+
+---
 
 Happy matrix operations! 🚀🔢
