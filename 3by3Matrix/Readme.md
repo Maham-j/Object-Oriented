@@ -56,8 +56,13 @@ Contributions are highly appreciated! Feel free to open an issue or submit a pul
 
 This project is licensed under the [MIT License](LICENSE) - check the LICENSE file for details.
 
-## Acknowledgments 🙌
+## Connect with Me 🌐 
 
-A special thanks to all contributors and the open-source community for their contributions to this project.
+Discover more exciting coding projects on my [GitHub repository](https://github.com/Maham-j)
 
+Connect with me on [LinkedIn](https://www.linkedin.com/in/maham-jamil-268584267)
+
+Connect with me on HackerRank: [HackerRank ](https://www.hackerrank.com/maham_jamil)
+
+---
 Enjoy exploring 3x3 matrix operations! 🚀🔢
