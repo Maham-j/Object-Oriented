@@ -1,5 +1,5 @@
 class Vector:
-    pass
+    pass 
 
 def main():
     # t is 2i+j+5k
