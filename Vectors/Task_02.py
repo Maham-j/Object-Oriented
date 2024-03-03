@@ -1,6 +1,6 @@
 #task_02
 class vector:   
-    pass 
+    pass  
 def main():
     t=vector()
     t.x=3
