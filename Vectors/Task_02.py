@@ -1,5 +1,5 @@
 #task_02
-class vector: 
+class vector:  
     pass
 def main():
     t=vector()
