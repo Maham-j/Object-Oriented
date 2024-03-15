@@ -1,6 +1,6 @@
 #task_05
 class Vector:
-    pass
+    pass 
 
 
 def equality(v1,v2):
