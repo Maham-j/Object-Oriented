@@ -5,7 +5,7 @@ class Vector:
 def main():
     v = Vector()
     v.x = 3
-    v.y = 2
+    v.y = 2 
     v.z = 1
     return v
     
