@@ -1,7 +1,7 @@
 # Access Modifiers in Python Classes
 
 Access modifiers are used to restrict access to methods and attributes of a class. Most programming languages have three types of modifiers:
-
+ 
 - Public Access Modifiers
 - Private Access Modifiers
 - Protected Access Modifiers
