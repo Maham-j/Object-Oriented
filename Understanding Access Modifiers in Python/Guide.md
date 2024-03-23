@@ -51,8 +51,8 @@ Maham
 
 - Private members are also called as `dunders` (double underscores) because they have double underscores in their names like `self.__name`. 
 - They can't be accessed outside of the class.
--  If we want to access them, we have to create getter setters
-- Or by using class and a single leading underscore and a double leading underscore. This technique is called name `mangling`,  to protect the class private and subclass private attributes from being 
+-  If we want to access them, we have to create getter setters.They are called `Mutator Methods`.
+- Or by using class and a single leading underscore and a double leading underscore. This technique is called `name mangling`,  to protect the class private and subclass private attributes from being 
   accidentally overwritten by a subclass.
 - Mangling is only done in private data members
 
@@ -68,11 +68,12 @@ a = Employee()
 
  # This will cause an error because it can't be accessed directly
 print(a.name) 
-
-
+```
+```python
 class Employee:
     def __init__(self):
         self.__name = 'Maham'
+        self.__rollno = 'BSDSF22MOO8'
         
 a = Employee()
 
@@ -114,7 +115,7 @@ Output:
 Maham
 ```
 
-## Using `__dir__()` Method:
+## Using __dir__() Method:
 
 A method called `dir()` which is used to see which methods can be applied to that object.
 
@@ -138,7 +139,7 @@ Output:
 ## Protected Access Modifiers:
 
 - Methods or attributes that are only accessed by its class or subclass.
-- The syntax to write this is a variable name followed by a single underscore (`self._name`).
+- The syntax to write this is a variable name followed by a single underscore `self._name`.
 - It does not provide any protection or restrictions to methods or attributes and no mangling is done in it. We can access it by calling its name only.
 
 ```python
