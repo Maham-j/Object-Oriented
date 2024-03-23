@@ -11,12 +11,17 @@ Access modifiers are used to restrict access to methods and attributes of a clas
 All data members and function members of a class are public by default. They can be accessed everywhere in class or outside of the class, by `OBJECT  REFERENCE` or by `CLASS REFERENCE`.
 
 ```python
+#By using object reference (by creating an object)
 class Employee:
+    #constructor
     def __init__(self):
         self.name = 'Maham'
         self.rollno = 'BSDSF22M008'
-        
+
+#object being created        
 a = Employee()
+
+#accessing the public data members
 print(f'Name:', a.name)
 print(f'Rollno:', a.rollno)
 ```
@@ -28,10 +33,12 @@ Output:
  ```
 
 ```python
+#By class reference 
 class Employee:
     def __init__(self):
         self.name = 'Maham'
-        
+
+#By using class        
 print(Employee().name)
 ```
 
@@ -47,21 +54,29 @@ Maham
 -  If we want to access them, we have to create getter setters
 - Or by using class and a single leading underscore and a double leading underscore. This technique is called name `mangling`,  to protect the class private and subclass private attributes from being 
   accidentally overwritten by a subclass.
+- Mangling is only done in private data members
 
 ```python
 class Employee:
     def __init__(self):
+        #creating private data members
         self.__name = 'Maham'
         self.__rollno = 'BSDSF22M008'
-        
+
+#creating object       
 a = Employee()
-print(a.name)  # This will cause an error because it can't be accessed directly
+
+ # This will cause an error because it can't be accessed directly
+print(a.name) 
+
 
 class Employee:
     def __init__(self):
         self.__name = 'Maham'
         
 a = Employee()
+
+#By mangling technique to acess private data members
 print(a._Employee__name)
 print(a._Employee__rollno)
 ```
@@ -76,15 +91,21 @@ BSDSF22M008
 ```python
 class Employee:
     def __init__(self):
+        #creating private data member
         self.__name = 'Maham'
-        
+
+    #setting the value of name
     def setX(self, name):
         self.__name = name
-        
+
+    #getting the name
     def getX(self):
         return self.__name
-        
+
+#creating an object      
 a = Employee()
+
+#getting access to private data members through getter function
 print(a.getX())
 ```
 
@@ -123,10 +144,13 @@ Output:
 ```python
 class Employee:
     def __init__(self):
+        #creating protected data members
         self._name = 'Maham'
         self._rollno = 'BSDSF22M008'
         
 a = Employee()
+
+#accessing to protected data members through their names simply(no mangling)
 print(a._name)
 print(a._rollno)
 ```
