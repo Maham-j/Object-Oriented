@@ -8,4 +8,13 @@ Object Oriented Programming is a programming model that uses the concept of ``ob
 
 
 # Class:
+- Classes are the blueprints from which the objects are being created.  
+- It tells how the object will look like.  
+- It has atrributes (the characteristics an object will have) and methods (which functions an object can perform).
+- The attributes and methods  maybe public, private or protected and can be accessed by dot(.).
 
+# Object:
+An entity that has
+-  state&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;==>&nbsp;&nbsp;&nbsp;&nbsp;attribute/property.  
+-  behaviour&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;==>&nbsp;&nbsp;&nbsp;&nbsp;method.  
+-  identity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;==>&nbsp;&nbsp;&nbsp;&nbsp;name.  
