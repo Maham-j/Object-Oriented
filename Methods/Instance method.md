@@ -12,6 +12,7 @@
        def instance_method(self):
            return self.x
 
+   #creating an instance of class
    obj = MyClass(42)
    print(obj.instance_method())  # Output: 42
    ```
