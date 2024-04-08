@@ -14,3 +14,12 @@
 
    print(MyClass.class_method())  # Output: 42
    ```
+
+
+
+```python
+#To access the class members we use the class reference
+class MyClass:
+       class_attribute = 42
+print(MyClass.class_attribute)    # Output: 42
+```
