@@ -2,6 +2,7 @@
    - Static methods are standalone methods that are not bound to either the class or instances of the class.
    - They do not take any implicit first parameter (`self` or `cls`).
    - Static methods are defined using the `@staticmethod` decorator and are often used for utility functions or operations that do not require access to instance or class attributes.
+   - To access the static members , calss reference is required.  
 
    Example:
    ```python
