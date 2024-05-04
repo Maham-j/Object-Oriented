@@ -42,8 +42,7 @@ The resulting content in the "data.txt" file would be:
 {'name': 'John', 'age': 30, 'pets': [{'name': 'Fluffy', 'species': 'Cat'}, {'name': 'Buddy', 'species': 'Dog'}]}
 ```
 
-As you can see, the data is written in a raw, unstructured format without preserving the original hierarchy and relationships between different elements.<br This can make it challenging to interpret or reconstruct the data accurately when reading it back from the file.
+As you can see, the data is unstructured which will make interpreting and reconstructing of data challenging when read back from the file.<br /><br />
+This is where serialization comes in.<br /><br />
 
-This is where serialization comes in.
-
-Serialization helps keep the original form of complex data types like dictionaries, data frames, and nested lists intact, so no important details are lost when storing or sending them.
+## Serialization helps keep the original form of complex data types like dictionaries, data frames, and nested lists intact, so no important details are lost when storing or sending them.
