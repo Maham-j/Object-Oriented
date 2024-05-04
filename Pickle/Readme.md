@@ -34,15 +34,14 @@ with open("data.txt", "w") as file:
     file.write(str(data))
 ```
 
-In this example, a dictionary `data` representing nested information is directly converted to a string using `str()` and written to a file, losing its structure and relationships.
-
+In this example, we change the dictionary data into a string using `str()` and put it in a file, but it loses how things are connected and organized.
 The resulting content in the "data.txt" file would be:
 
 ```
 {'name': 'John', 'age': 30, 'pets': [{'name': 'Fluffy', 'species': 'Cat'}, {'name': 'Buddy', 'species': 'Dog'}]}
 ```
 
-As you can see, the data is unstructured which will make interpreting and reconstructing of data challenging when read back from the file.<br /><br />
+As you can see, the data is unstructured which will make interpreting and reconstructing of data challenging when read back from the file.
 This is where serialization comes in.<br /><br />
 
 ## Serialization helps keep the original form of complex data types like dictionaries, data frames, and nested lists intact, so no important details are lost when storing or sending them.
