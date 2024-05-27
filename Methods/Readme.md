@@ -1,5 +1,5 @@
 # In Python there are generally three types of methods assiciated with classes
 
--  Instance method.  
+-  Instance method.   
 -  Static method.  
 -  Class method.  
