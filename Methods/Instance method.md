@@ -1,5 +1,5 @@
 # Instance method
-   - Instance methods are the most common type of methods in Python classes.
+   - Instance methods are the most common type of methods in Python classes. 
    - They operate on instances of the class and can access and modify instance attributes.
    - Instance methods are defined without any decorators and typically take `self` as the first parameter, which refers to the instance itself.
    - To access the instance memebers an `object reference` is required.
